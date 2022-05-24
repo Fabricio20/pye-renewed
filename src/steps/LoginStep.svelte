@@ -42,10 +42,6 @@
         gap: 16px;
     }
 
-    Help {
-        align-self: center;
-    }
-
     .error {
         padding: 1em;
         color: indianred;
