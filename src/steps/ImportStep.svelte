@@ -54,7 +54,7 @@
 </script>
 
 <section>
-    <Help step="4">
+    <Help step="6">
         Importing playlists... This may take several minutes.
     </Help>
     {#if waiting}
@@ -136,6 +136,12 @@
 
     .progress > .area {
         width: 150px;
+    }
+
+    @media (max-width: 768px) {
+        .progress > .area {
+            width: 100px;
+        }
     }
 
     .progress > .area > .bar {

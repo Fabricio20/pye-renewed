@@ -9,6 +9,7 @@
     import LoginStep from "./steps/LoginStep.svelte";
     import ImportStep from "./steps/ImportStep.svelte";
     import FinishStep from "./steps/FinishStep.svelte";
+    import Banner from "./components/Banner.svelte";
 
     let currentStep;
     step.subscribe((data) => {
@@ -18,6 +19,7 @@
 
 <main>
     <div class="left">
+        <Banner/>
         <Steps/>
     </div>
     <div class="right">
@@ -44,18 +46,30 @@
         display: flex;
         flex-direction: row;
         gap: 16px;
-        padding: 1em;
+        padding: 50px;
     }
 
     .left {
-        width: 30%;
-        /*border: 1px solid red;*/
+        width: 25%;
     }
 
     .right {
-        width: 70%;
+        width: 75%;
         display: flex;
         flex-direction: column;
-        /*border: 1px solid blue;*/
+    }
+
+    @media (max-width: 768px) {
+        main {
+            flex-direction: column;
+        }
+
+        .left {
+            width: 100%;
+        }
+
+        .right {
+            width: 100%;
+        }
     }
 </style>

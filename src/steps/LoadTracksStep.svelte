@@ -145,6 +145,12 @@
         width: 150px;
     }
 
+    @media (max-width: 768px) {
+        .progress > .area {
+            width: 100px;
+        }
+    }
+
     .progress > .area > .bar {
         height: 100%;
         background-color: #00b5e6;

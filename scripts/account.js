@@ -29,6 +29,17 @@ export async function LogIn() {
     });
 }
 
+export async function Revoke() {
+    let cred = client.getToken();
+    if (cred === null) {
+        return;
+    }
+    google.accounts.oauth2.revoke(cred.access_token, () => {
+        console.log('Revoked: ' + cred.access_token)
+    });
+    client.setToken('');
+}
+
 export function IsLoggedIn() {
     return client.getToken() !== null;
 }

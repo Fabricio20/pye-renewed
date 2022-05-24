@@ -28,7 +28,7 @@ export async function FetchVideo(id) {
         title: item.snippet.title,
         channel_title: item.snippet.channelTitle,
         channel_id: item.snippet.channelId,
-        thumbnail: `https://i.ytimg.com/vi/${item.id}/maxresdefault.jpg`
+        thumbnail: `https://i.ytimg.com/vi/${item.id}/default.jpg`
     };
 }
 

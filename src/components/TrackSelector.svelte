@@ -24,7 +24,7 @@
                      class:unselected={!selected[item.id]}
                      on:click={onUpdate(item)}></div>
                 <div class="image"
-                     style="background-image: url('https://i.ytimg.com/vi/{item.id}/maxresdefault.jpg');"></div>
+                     style="background-image: url('{item.thumbnail}');"></div>
                 <div class="name">
                     <a href="https://youtube.com/watch?v={item.id}">
                         {item.title ? item.title : item.id}

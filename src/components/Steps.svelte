@@ -10,15 +10,15 @@
 <section>
     <div class="step" class:wait={stepVal === 0} class:done={stepVal > 0}>
         <span class="icon"></span>
-        Import JSON
+        Load playlist file
     </div>
     <div class="step" class:wait={stepVal === 1} class:done={stepVal > 1}>
         <span class="icon"></span>
-        Select PlayList
+        Select playlists
     </div>
     <div class="step" class:wait={stepVal === 2} class:done={stepVal > 2}>
         <span class="icon"></span>
-        Authorize APIs
+        Authorize YouTube
     </div>
     <div class="step" class:wait={stepVal === 3} class:done={stepVal > 3}>
         <span class="icon"></span>
@@ -26,11 +26,15 @@
     </div>
     <div class="step" class:wait={stepVal === 4} class:done={stepVal > 4}>
         <span class="icon"></span>
-        Select tracks
+        Edit playlists
     </div>
     <div class="step" class:wait={stepVal === 5} class:done={stepVal > 5}>
         <span class="icon"></span>
-        Import data
+        Export
+    </div>
+    <div class="step" class:wait={stepVal === 6}>
+        <span class="icon"></span>
+        Finished
     </div>
 </section>
 
@@ -39,13 +43,13 @@
         display: flex;
         flex-direction: column;
         gap: 8px;
-        border: 1px solid yellow;
     }
 
     .step > .icon {
         width: 16px;
         display: inline-block;
         text-align: center;
+        margin-right: 16px;
     }
 
     .wait > .icon:after {
