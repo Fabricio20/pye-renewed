@@ -7,19 +7,17 @@
     let items = [], errors = {}, loaded = {}, waiting = false, wait_count = 0, finished = false;
 
     async function Load(playlist) {
-        let i = 0;
         for (const item of playlist.items) {
-            let data;
+            let data, time = 60000;
             do {
-                await sleep(3000); // TODO: Remove
-
                 data = await FetchVideo(item.id);
                 if (data.code === 429) {
                     console.log('Hit a rate limit');
                     waiting = true;
                     wait_count = wait_count + 1;
-                    await sleep(1000 * 60);
+                    await sleep(time);
                     waiting = false;
+                    time = time * 2;
                 } else {
                     playlist.loaded.push(data);
                     loaded[playlist.name] += 1;
@@ -28,10 +26,6 @@
                     }
                 }
             } while (data.code === 429);
-            i++;
-            if (i === 4) {
-                break;
-            }
         }
     }
 
