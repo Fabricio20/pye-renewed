@@ -19,7 +19,7 @@
 </script>
 
 <section>
-    <Help step="5">
+    <Help step={5}>
         You can select which tracks you want to import from each playlist below.
     </Help>
     <div class="playlists">

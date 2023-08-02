@@ -1,5 +1,5 @@
 <script>
-    import {IsLoggedIn, LogIn} from "../../scripts/account";
+    import {IsLoggedIn, LogIn} from "../scripts/account";
     import Button from "../components/Button.svelte";
     import {step} from "../stores";
     import Help from "../components/Help.svelte";
@@ -21,7 +21,7 @@
 </script>
 
 <section>
-    <Help step="3">
+    <Help step={3}>
         You need to authorize access to your YouTube account so we can create the playlists and import the tracks,
         please authorize below.
     </Help>

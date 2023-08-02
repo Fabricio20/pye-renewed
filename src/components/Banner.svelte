@@ -5,7 +5,7 @@
     <hr/>
     <div class="links">
         <div class="link">
-            <a href="https://github.com/Fabricio20/PYE">GitHub</a>
+            <a href="https://github.com/Fabricio20/pye-renewed">GitHub</a>
         </div>
         <div class="link">
             <a href="https://notfab.net/">Author</a>

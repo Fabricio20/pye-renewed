@@ -1,6 +1,6 @@
 <script>
     import {playlists, step} from '../stores.js';
-    import {CreatePlayList, InsertTrack, sleep} from "../../scripts/youtube";
+    import {CreatePlayList, InsertTrack, sleep} from "../scripts/youtube";
     import Help from "../components/Help.svelte";
     import Button from "../components/Button.svelte";
 
@@ -54,7 +54,7 @@
 </script>
 
 <section>
-    <Help step="6">
+    <Help step={6}>
         Importing playlists... This may take several minutes.
     </Help>
     {#if waiting}

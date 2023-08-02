@@ -27,7 +27,7 @@
 </script>
 
 <section>
-    <Help step="1">
+    <Help step={1}>
         Upload your <code>PLAYLIST.json</code> file below.
     </Help>
     <div class="area">

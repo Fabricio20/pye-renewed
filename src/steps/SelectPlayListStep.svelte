@@ -1,5 +1,5 @@
 <script>
-    import {PlayList} from '../../scripts/schema';
+    import {PlayList} from '../scripts/schema';
     import {loaded, selected_playlists, step} from '../stores.js';
     import Button from "../components/Button.svelte";
     import Help from "../components/Help.svelte";
@@ -38,7 +38,7 @@
 </script>
 
 <section>
-    <Help step="2">
+    <Help step={2}>
         Select which playlists you'd like to import below, then click next.
     </Help>
     {#if invalid}

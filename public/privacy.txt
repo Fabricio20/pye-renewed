@@ -1,0 +1,73 @@
+LindseyBot is a FREE service. This SERVICE is provided by NotFab at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service.
+I will not use or share your information with anyone except as described in this Privacy Policy.
+
+----
+Information Regarding PYE and Third-party ToS
+
+PYE is a FREE service that interacts with the Youtube API, owned by Google. This means that by using PYE you agree to the privacy policy presented by
+Google and Youtube.
+
+You can find a copy of Google's privacy policy in this link:
+- https://policies.google.com/privacy
+
+PYE requires access to your Youtube Account to work, you may revoke our access at any moment by visiting https://myaccount.google.com/permissions?gar=1 and revoking the app "LindseyBot".
+
+-----
+Information Collection and Use:
+
+I may require you to provide us with certain personally identifiable information. The information that I request will be collected by the bot and saved on an encrypted database.
+
+Personally Identifiable Information collected:
+- Discord Messages (for commands, for example, welcome message).
+- Nationality (provided by the user for the `profile` command).
+- Discord Username#Tag (used for Cookie Leaderboard).
+
+Log Data:
+In a case of an error in the bot, I collect data and information related to the command execution, which is stored at most for 30 days. This is used to reproduce the issue and fix the bug.
+
+Data Retention:
+- Most user-generated data is stored for as long as the bot can see the server (guild), after that, a timer of 30 days starts ticking, once it reaches 30 days, all guild-related data
+is permanently deleted from the bot. This allows you to kick/reinvite the bot without losing your settings, as well as reducing resource usage on our end.
+
+-----
+Service Providers
+
+I may employ third-party services to:
+
+*   Facilitate development;
+*   Perform Service-related services; or
+*   Assist me in analyzing how our Service is used.
+
+These services don't have access to your personally identifiable information. All information provided to these services is anonymized.
+
+-----
+Security
+
+I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+
+This includes (but not limited to):
+- Encrypted databases
+- Anonymization of data
+- Principle of Least Knowledge (LoD)
+
+-----
+Children's Privacy
+
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13.
+
+-----
+Changes to This Privacy Policy
+
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
+I will notify users of any change to this Privacy Policy on the bot's Discord.
+
+This policy has been in effect since 2016.
+
+-----
+Contact Us
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at https://discord.gg/xj62CKK.

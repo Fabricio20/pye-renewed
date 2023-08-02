@@ -1,6 +1,6 @@
 <script>
     import {playlists, selected_playlists, step} from '../stores.js';
-    import {FetchVideo, sleep} from "../../scripts/youtube";
+    import {FetchVideo, sleep} from "../scripts/youtube";
     import Button from "../components/Button.svelte";
     import Help from "../components/Help.svelte";
 
@@ -55,7 +55,7 @@
 </script>
 
 <section>
-    <Help step="4">
+    <Help step={4}>
         Loading playlist items... please wait. This may take several minutes.
     </Help>
     {#if waiting}
